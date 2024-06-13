@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/*CENTER-IMG-HEADER-PANEL*/
+.header-img{
+    background-image: url(http://localhost/support_kip/IMG/panel.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+/*CENTER-IMG-HEADER-KIP-SERIE*/
+.header-img-kip-serie{
+    background-image: url(http://localhost/support_kip//IMG/seriekip.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+
+/*CENTER-IMG-HEADER-sistema-kip*/
+.header-img-sistema-kip{
+    background-image: url(http://localhost/support_kip/IMG/paleta_color.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #292828;
+}
+
+/*CENTER-IMG-HEADER-LEARNING*/
+.header-img-kip-learning{
+    background-image: url(http://localhost/support_kip/IMG/learnig.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #393838;
+}
+
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #004274;
+    position: relative;
+    height: 70px;
+}
+
+.logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.menu-icon i{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media (max-width:900px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #004274;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding: 20px;
+        padding-top: 0;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+}
+
+
+/*PUBLIC-INDEX*/
+.container-public{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-public img {
+    width: 600px;
+    margin-left: 80px;
+}
+
+.container-public .text{
+    background: rgba(46, 46, 107, 0.172);
+    padding: 80px;
+    margin-left: 40px;
+    margin-right: 50px;
+
+}
+
+
+@media (max-width: 1300px) {
+    .container-public{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .container-public img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-public img {
+        margin-left: -8px;
+        width: 300px;
+    }
+}
+
+@media (max-width:600px) {
+    .container-public .text{
+        padding: 40px;
+    }
+}
+
+
+/*CARD_SISTEMA_KIP_K*/
+.container-system{
+    margin-top: 50px;
+}
+
+.container-card-sistem-k{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+
+.card img{
+    width: 100%;
+}
+
+.card{
+    padding: 20px;
+    border: solid 1px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*@media_Query*/
+@media (max-width: 460px) {
+    .container-card-sistem-k img{
+        width: 100%;
+    }
+}
+
+
+
+/*SERIE_71*/
+
+.title-boletin{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.container-general-guias{
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.container-general-guias .card img{
+    width: 150px;
+    height: 140px;
+}
+
+.container-general-guias .card{
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px; 
+}
+
+@media (max-width: 600px) {
+    .title-boletin{
+        font-size: 35px;
+    }
+
+    .container-general-guias .card{
+        padding: 50px;
+        padding-bottom: 350px;
+    }
+
+    .container-general-guias a small{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container-general-guias {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 580px) {
+    .card-body h5{
+        font-size: 15px;
+    }
+
+    .card-body p {
+        font-size: 12px;
+    }
+}
+
+/*CARD VIDEOS*/
+.container-card-mp4{
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.container-card-mp4 .card img{
+    width: 100%;
+}
+
+.container-card-mp4 .card{
+    padding: 20px;
+    margin-left: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+/*@media_Query_serie_71*/
+@media (max-width: 430px) {
+    .container-card-mp4  img{
+        width: 100%;
+    }
+
+    .container-card-mp4 .card-body p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 300px) {
+    .container-card-mp4 .card-body p{
+        font-size: 8px;
+    }
+}
+
