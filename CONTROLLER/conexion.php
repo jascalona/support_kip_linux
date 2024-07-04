@@ -1,6 +1,15 @@
 <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$db = "support_kip";
 
-$conexion = new mysqli("127.0.0.1","root","#fff1587", "support_kip", "3306");
-$conexion->set_charset("utf8");
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $db);
 
+// Check connection
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected successfully";
 ?>
