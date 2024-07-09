@@ -69,7 +69,7 @@ if (!empty($_SESSION["id"])) {
     </script>
 
         
-        <div class="header-img-kip-serie">
+        <div style="background-image: url(./IMG/learnig.jpg);" class="header-img-kip-serie">
             <p>DOCUMENTACTIÓN</p>
             <H1>FORMACIÓN-TÉCNICA</H1>
         </div>

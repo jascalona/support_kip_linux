@@ -3,7 +3,7 @@
 
 
 body{
-    background-image: url(http://localhost/support_kip/IMG/login.jpg);
+    background-image: url(/IMG/login.jpg);
 }
 
 .container-login{

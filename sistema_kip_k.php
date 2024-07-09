@@ -74,7 +74,7 @@ if (!empty($_SESSION["id"])) {
 
         
 
-        <div class="header-img-sistema-kip">
+        <div style="background-image: url(./IMG/paleta_color.jpg);" class="header-img-sistema-kip">
             <p>DOCUMENTACTIÓN</p>
             <H1>FORMACIÓN-TÉCNICA</H1>
         </div>

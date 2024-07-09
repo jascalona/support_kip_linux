@@ -17,7 +17,7 @@
 
     <nav>
         <div class="logo">
-            <a href="./index.html">Virtual Technical Education</a>
+            <a href="./index.php">Virtual Technical Education</a>
         </div>
         <ul id="menuList">
             <li></li>
@@ -45,7 +45,7 @@
  
 
         <!--start img header-->
-        <div class="header-img">
+        <div style="background-image: url(./IMG/panel.jpg);" class="header-img">
             <p>DOCUMENTACTIÓN</p>
             <H1>FORMACIÓN-TÉCNICA</H1>
         </div>

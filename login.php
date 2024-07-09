@@ -7,7 +7,7 @@
 
     <title>Login</title>
 </head>
-<body>
+<body style="background-image: url(./IMG/login.jpg);">
 
 
             
