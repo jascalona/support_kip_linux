@@ -12,7 +12,7 @@ if (!empty($_POST['btn-i'])) {
         $password = $_POST['password'];
 
 
-        $sql=$conn->query(" SELECT *FROM usa WHERE user='$user' AND password='$password'  ");
+        $sql=$conn->query(" SELECT *FROM sk_usa WHERE user='$user' AND password='$password'  ");
 
 
         if ($datos=$sql->fetch_object()) {

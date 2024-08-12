@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$db = "support_kip";
+$db = "XDV";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $db);
